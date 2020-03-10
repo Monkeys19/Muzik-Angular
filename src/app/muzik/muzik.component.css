@@ -1,0 +1,13 @@
+.muzik {
+  grid-column-start: 1;
+  grid-column-end: 1;
+  grid-row-start: 1;
+  grid-row-end: 1;
+  background-color: #de0b51;
+  text-align: center;
+  padding: 20px 60px;
+  text.align:center;
+  color: white;
+  font-size: 24px;
+  font-family: Verdana, Geneva, sans-serif;
+}

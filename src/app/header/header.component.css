@@ -1,0 +1,15 @@
+.musicSongs{
+  grid-column-start: 2;
+  grid-column-end: 2;
+  padding: 20px 15px;
+  background-color: #e3e3e3;
+  color: #616161;
+  text-align:left;
+  font-size:18px;
+  font-family: Verdana, Geneva, sans-serif;
+}
+
+.button{
+  text-align:right;
+  padding: -15px 60px;
+}

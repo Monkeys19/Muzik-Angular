@@ -1,0 +1,11 @@
+
+<div>
+  <div class="album-outer" *ngFor="let album of mainAlbum" attr.data-sectionfilter="{{album.category.attributes.label}}">
+        <img class= "img " src="{{album['im:image'][2].label}}">
+
+    <div class= "artist-name">
+        {{ album['im:artist'].label }}
+    </div>
+      </div>
+
+</div>

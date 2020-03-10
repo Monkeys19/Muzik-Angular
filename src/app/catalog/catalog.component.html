@@ -1,0 +1,10 @@
+<div class="catalog">
+  <h2 class= "genre">Music:</h2>
+  <ul class="nav flex-column" *ngFor="let item of catalogChild">
+  <li class="nav-item">
+    <a class="nav-link nav-item genre" (click)="onPropagar(item)" href="#" attr.data-sectionfilter="{{item}}"> {{item}}</a>
+  </li>
+</ul>
+
+
+</div>

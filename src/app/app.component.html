@@ -1,0 +1,14 @@
+<div class="grid-container">
+    <div class="muzik">
+      <app-muzik></app-muzik>
+    </div>
+    <div class="musicSongs">
+    <app-header></app-header>
+    </div>
+    <div class="catalog">
+    <app-catalog [catalogChild]="uniqueItems" (propagar)="procesaPropagar($event)"></app-catalog>
+    </div>
+    <div class="main">
+    <app-album [mainAlbum]="albums"></app-album>
+    </div>
+</div>

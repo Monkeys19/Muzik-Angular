@@ -1,0 +1,15 @@
+
+		.grid-container {
+			display: grid;
+		  grid-template-columns: 300px 860px;
+      grid-template-rows: 100px 392px;
+		  grid-gap: 0px;
+		  padding: 0px;
+			box-shadow: 8px 4px 8px 8px rgba(0, 0, 0, 0.2), 6px 6px 20px 6px rgba(0, 0, 0, 0.19);
+			position: absolute;
+			width: 85%;
+			height: 75%;
+z-index: 15;
+top: 10%;
+left: 6%;
+}

@@ -1,0 +1,24 @@
+.catalog{
+			grid-row-start: 2;
+			grid-row-end: 2;
+			padding: 0px 30px;
+			font-size: 27px;
+			background-color: #121b29;
+      font-family: Verdana, Geneva, sans-serif;
+			overflow-y: auto;
+			color: #ffffff;
+
+		}
+
+  .genre{
+    font-size: 15px;
+    font-family: Verdana, Geneva, sans-serif;
+
+  }
+
+	a[data-filter="{{item}}"]:focus ~ div:not([data-filter="{{item}}"]){
+	  height:0px;
+	  width:0px;
+	  border:none;
+	  margin:0;
+	}
